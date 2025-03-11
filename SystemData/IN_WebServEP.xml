@@ -1,0 +1,97 @@
+<?xml version="1.0" standalone="yes"?>
+<_x002E_vdb4 xmlns="VistaDB">
+  <xs:schema id="_x002E_vdb4" targetNamespace="VistaDB" xmlns:mstns="VistaDB" xmlns="VistaDB" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+    <xs:element name="_x002E_vdb4" msdata:IsDataSet="true" msdata:Locale="en-US" msdata:EnforceConstraints="False" msprop:sensitivity="False" msprop:specification="10">
+      <xs:complexType>
+        <xs:choice minOccurs="0" maxOccurs="unbounded">
+          <xs:element name="Endpoints">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="Name" msprop:vdbType="VarChar" msprop:encrypted="True" msprop:codepage="1252">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="50" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="RawStringEndpoint" msprop:vdbType="VarChar" msprop:encrypted="True" msprop:codepage="1252">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="250" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="AccessTokenEndpoint" msprop:vdbType="VarChar" msprop:encrypted="True" msprop:codepage="1252">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="250" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="Production" msprop:vdbType="Int" msprop:encrypted="True" type="xs:int" />
+                <xs:element name="ClientId" msprop:vdbType="VarChar" msprop:encrypted="True" msprop:codepage="1252">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="40" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+                <xs:element name="ClientSecret" msprop:vdbType="VarChar" msprop:encrypted="True" msprop:codepage="1252">
+                  <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                      <xs:maxLength value="40" />
+                    </xs:restriction>
+                  </xs:simpleType>
+                </xs:element>
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+      <xs:unique name="PK_Endpoints" msprop:key="Name" msdata:PrimaryKey="true">
+        <xs:selector xpath=".//mstns:Endpoints" />
+        <xs:field xpath="mstns:Name" />
+      </xs:unique>
+    </xs:element>
+  </xs:schema>
+  <Endpoints>
+    <Name>DSIT</Name>
+    <RawStringEndpoint>https://dsitisrapigf5.dstest.irsnet.gov:10502/ECLAS-RawString/1.0/isrclasrawstring/rest/rawstringservice/command</RawStringEndpoint>
+    <AccessTokenEndpoint>https://a2aping.aqt.dstest.irsnet.gov:9031/as/token.oauth2</AccessTokenEndpoint>
+    <Production>0</Production>
+    <ClientId>s8ybe3hb-s2bdk4e</ClientId>
+    <ClientSecret>AMJGFyamRSOfcMqgjyaV</ClientSecret>
+  </Endpoints>
+  <Endpoints>
+    <Name>SITE</Name>
+    <RawStringEndpoint>https://vl2smemappsiag1.dstest.irsnet.gov:10502/ECLAS-RawString/1.0/isrclasrawstring/rest/rawstringservice/command</RawStringEndpoint>
+    <AccessTokenEndpoint>https://a2aping.aqt.dstest.irsnet.gov:9031/as/token.oauth2</AccessTokenEndpoint>
+    <Production>0</Production>
+    <ClientId>s8ybe3hb-s2bdk4e</ClientId>
+    <ClientSecret>AMJGFyamRSOfcMqgjyaV</ClientSecret>
+  </Endpoints>
+  <Endpoints>
+    <Name>PTE</Name>
+    <RawStringEndpoint>https://pteisrapigf5.dstest.irsnet.gov:10502/ECLAS-RawString/1.0/isrclasrawstring/rest/rawstringservice/command</RawStringEndpoint>
+    <AccessTokenEndpoint>https://a2aping.eite.dstest.irsnet.gov:9031/as/token.oauth2</AccessTokenEndpoint>
+    <Production>0</Production>
+    <ClientId>s8ybe3hb-s2bdk4e</ClientId>
+    <ClientSecret>ELEY3AiZsv1RyJeBBqVu</ClientSecret>
+  </Endpoints>
+  <Endpoints>
+    <Name>PROD</Name>
+    <RawStringEndpoint>https://api.gateway.enterprise.irs.gov/ECLAS-RawString/1.0/isrclasrawstring/rest/rawstringservice/command</RawStringEndpoint>
+    <AccessTokenEndpoint>https://a2aping.enterprise.irs.gov:9031/as/token.oauth2</AccessTokenEndpoint>
+    <Production>1</Production>
+    <ClientId>s8ybe3hb-s2bdk4e</ClientId>
+    <ClientSecret>phnFKXkhYWB98nPbuxLt</ClientSecret>
+  </Endpoints>
+  <Endpoints>
+    <Name>ASPE</Name>
+    <RawStringEndpoint>https://api.gateway.enterprise.irs.gov/ECLAS-RawString/1.0/isrclasrawstring/rest/rawstringservice/command</RawStringEndpoint>
+    <AccessTokenEndpoint>https://a2aping.enterprise.irs.gov:9031/as/token.oauth2</AccessTokenEndpoint>
+    <Production>0</Production>
+    <ClientId>s8ybe3hb-s2bdk4e</ClientId>
+    <ClientSecret>phnFKXkhYWB98nPbuxLt</ClientSecret>
+  </Endpoints>
+</_x002E_vdb4>
