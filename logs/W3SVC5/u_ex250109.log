@@ -1,0 +1,8 @@
+#Software: Microsoft Internet Information Services 10.0
+#Version: 1.0
+#Date: 2025-01-09 20:28:22
+#Fields: date time s-ip cs-method cs-uri-stem cs-uri-query s-port cs-username c-ip cs(User-Agent) cs(Referer) sc-status sc-substatus sc-win32-status time-taken
+2025-01-09 20:28:21 10.101.12.72 POST /api/picalc - 443 - 10.101.8.245 PostmanRuntime/7.43.0 - 200 0 0 2499
+2025-01-09 20:31:33 10.101.12.72 POST /api/picalc - 443 - 10.101.8.76 PostmanRuntime/7.43.0 - 200 0 0 779
+2025-01-09 20:42:22 10.101.12.72 POST /api/picalc - 443 - 10.101.8.245 PostmanRuntime/7.43.0 - 200 0 0 700
+2025-01-09 20:42:47 10.101.12.72 POST /api/picalc - 443 - 10.101.8.76 PostmanRuntime/7.43.0 - 200 0 0 687

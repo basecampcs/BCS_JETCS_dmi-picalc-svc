@@ -1,0 +1,11 @@
+#Software: Microsoft Internet Information Services 10.0
+#Version: 1.0
+#Date: 2024-12-19 19:25:55
+#Fields: date time s-ip cs-method cs-uri-stem cs-uri-query s-port cs-username c-ip cs(User-Agent) cs(Referer) sc-status sc-substatus sc-win32-status time-taken
+2024-12-19 19:25:55 10.101.12.72 POST /api/hello - 443 - 10.101.8.213 PostmanRuntime/7.37.3 - 200 0 0 1999
+2024-12-19 19:27:03 10.101.12.72 POST /api/hello - 443 - 10.101.8.121 PostmanRuntime/7.43.0 - 200 0 0 679
+2024-12-19 19:27:43 10.101.12.72 POST /api/picalc - 443 - 10.101.8.121 PostmanRuntime/7.43.0 - 400 0 0 658
+2024-12-19 19:28:23 10.101.12.72 POST /api/picalc - 443 - 10.101.8.213 PostmanRuntime/7.43.0 - 400 0 0 596
+2024-12-19 19:28:48 10.101.12.72 POST /api/picalc - 443 - 10.101.8.121 Amazon+CloudFront - 200 0 0 1205
+2024-12-19 19:29:28 10.101.12.72 POST /api/picalc - 443 - 10.101.8.213 PostmanRuntime/7.43.0 - 200 0 0 831
+2024-12-19 19:32:13 10.101.12.72 POST /api/hello - 443 - 10.101.8.121 PostmanRuntime/7.43.0 - 200 0 0 625

@@ -1,0 +1,57 @@
+#Software: Microsoft Internet Information Services 10.0
+#Version: 1.0
+#Date: 2024-12-17 12:07:36
+#Fields: date time s-ip cs-method cs-uri-stem cs-uri-query s-port cs-username c-ip cs(User-Agent) cs(Referer) sc-status sc-substatus sc-win32-status time-taken
+2024-12-17 12:07:36 10.101.12.72 POST /api/picalc - 443 - 10.101.8.213 PostmanRuntime/7.37.3 - 500 0 0 2572
+#Software: Microsoft Internet Information Services 10.0
+#Version: 1.0
+#Date: 2024-12-17 14:26:28
+#Fields: date time s-ip cs-method cs-uri-stem cs-uri-query s-port cs-username c-ip cs(User-Agent) cs(Referer) sc-status sc-substatus sc-win32-status time-taken
+2024-12-17 14:26:28 10.101.12.72 POST /api/picalc - 443 - 10.101.8.121 Amazon+CloudFront - 500 0 0 1662
+2024-12-17 14:26:43 10.101.12.72 POST /api/picalc - 443 - 10.101.8.213 Amazon+CloudFront - 500 0 0 771
+2024-12-17 14:27:00 10.101.12.72 POST /api/picalc - 443 - 10.101.8.213 PostmanRuntime/7.43.0 - 500 0 0 621
+2024-12-17 14:27:09 10.101.12.72 POST /api/picalc - 443 - 10.101.8.213 PostmanRuntime/7.43.0 - 200 0 0 874
+2024-12-17 14:27:38 10.101.12.72 POST /api/picalc - 443 - 10.101.8.213 Amazon+CloudFront - 200 0 0 996
+2024-12-17 14:28:02 10.101.12.72 POST /api/picalc - 443 - 10.101.8.213 PostmanRuntime/7.43.0 - 500 0 0 654
+2024-12-17 14:28:15 10.101.12.72 POST /api/picalc - 443 - 10.101.8.121 PostmanRuntime/7.43.0 - 500 0 0 621
+2024-12-17 14:28:36 10.101.12.72 POST /api/picalc - 443 - 10.101.8.121 Amazon+CloudFront - 200 0 0 708
+#Software: Microsoft Internet Information Services 10.0
+#Version: 1.0
+#Date: 2024-12-17 15:15:40
+#Fields: date time s-ip cs-method cs-uri-stem cs-uri-query s-port cs-username c-ip cs(User-Agent) cs(Referer) sc-status sc-substatus sc-win32-status time-taken
+2024-12-17 15:15:40 10.101.12.72 POST /api/picalc - 443 - 10.101.8.121 PostmanRuntime/7.43.0 - 200 0 0 7975
+2024-12-17 15:20:34 10.101.12.72 POST /api/picalc - 443 - 10.101.8.213 Amazon+CloudFront - 200 0 0 759
+#Software: Microsoft Internet Information Services 10.0
+#Version: 1.0
+#Date: 2024-12-17 16:28:45
+#Fields: date time s-ip cs-method cs-uri-stem cs-uri-query s-port cs-username c-ip cs(User-Agent) cs(Referer) sc-status sc-substatus sc-win32-status time-taken
+2024-12-17 16:28:44 10.101.12.72 POST /api/picalc - 443 - 10.101.8.213 PostmanRuntime/7.37.3 - 200 0 0 2026
+#Software: Microsoft Internet Information Services 10.0
+#Version: 1.0
+#Date: 2024-12-17 18:13:38
+#Fields: date time s-ip cs-method cs-uri-stem cs-uri-query s-port cs-username c-ip cs(User-Agent) cs(Referer) sc-status sc-substatus sc-win32-status time-taken
+2024-12-17 18:13:38 10.101.12.72 POST /api/picalc - 443 - 10.101.8.121 Amazon+CloudFront - 200 0 0 1971
+2024-12-17 18:17:39 10.101.12.72 POST /api/picalc - 443 - 10.101.8.121 Amazon+CloudFront - 200 0 0 1612
+#Software: Microsoft Internet Information Services 10.0
+#Version: 1.0
+#Date: 2024-12-17 19:08:02
+#Fields: date time s-ip cs-method cs-uri-stem cs-uri-query s-port cs-username c-ip cs(User-Agent) cs(Referer) sc-status sc-substatus sc-win32-status time-taken
+2024-12-17 19:08:02 10.101.12.72 POST /api/picalc - 443 - 10.101.8.121 PostmanRuntime/7.37.3 - 200 0 0 7726
+2024-12-17 19:09:35 10.101.12.72 POST /api/picalc - 443 - 10.101.8.213 Amazon+CloudFront - 200 0 0 951
+2024-12-17 19:23:33 10.101.12.72 POST /api/picalc - 443 - 10.101.8.213 Amazon+CloudFront - 200 0 0 799
+2024-12-17 19:23:38 10.101.12.72 POST /api/picalc - 443 - 10.101.8.213 Amazon+CloudFront - 200 0 0 763
+2024-12-17 19:26:29 10.101.12.72 POST /api/picalc - 443 - 10.101.8.213 Amazon+CloudFront - 200 0 0 795
+2024-12-17 19:26:49 10.101.12.72 POST /api/picalc - 443 - 10.101.8.121 Amazon+CloudFront - 200 0 0 812
+2024-12-17 19:29:20 10.101.12.72 POST /api/picalc - 443 - 10.101.8.121 Amazon+CloudFront - 200 0 0 862
+2024-12-17 19:32:44 10.101.12.72 POST /api/picalc - 443 - 10.101.8.213 Amazon+CloudFront - 200 0 0 834
+#Software: Microsoft Internet Information Services 10.0
+#Version: 1.0
+#Date: 2024-12-17 19:49:05
+#Fields: date time s-ip cs-method cs-uri-stem cs-uri-query s-port cs-username c-ip cs(User-Agent) cs(Referer) sc-status sc-substatus sc-win32-status time-taken
+2024-12-17 19:49:05 10.101.12.72 POST /api/picalc - 443 - 10.101.8.213 Amazon+CloudFront - 200 0 0 834
+#Software: Microsoft Internet Information Services 10.0
+#Version: 1.0
+#Date: 2024-12-17 21:55:29
+#Fields: date time s-ip cs-method cs-uri-stem cs-uri-query s-port cs-username c-ip cs(User-Agent) cs(Referer) sc-status sc-substatus sc-win32-status time-taken
+2024-12-17 21:55:29 10.101.12.72 POST /api/picalc - 443 - 10.101.8.213 Amazon+CloudFront - 200 0 0 1922
+2024-12-17 21:57:08 10.101.12.72 POST /api/picalc - 443 - 10.101.8.121 Amazon+CloudFront - 200 0 0 757
