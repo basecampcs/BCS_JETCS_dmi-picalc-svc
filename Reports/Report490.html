@@ -1,0 +1,477 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+
+        @page {
+            margin: 18pt;
+        }
+
+        body {
+            width: 612pt;
+            font-family: 'Times New Roman', Times, serif;
+            padding: 0px;
+            justify-content: center;
+            margin-top: 65px;
+            margin-bottom: 10px;
+        }
+
+
+        /* Input Parameters Section*/
+
+
+        .input-parameter-border {
+            border: .7px solid black;
+            margin-top: 8px;
+            margin-bottom: 3px;
+            margin-left: 21px;
+            margin-right: 21px;
+            padding-top: 8px;
+            padding-bottom: 8px;
+        }
+
+        .flex-row {
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+        }
+
+            .flex-row * {
+                margin: 0px;
+                padding: 0px;
+                font-size: 10pt;
+            }
+
+        .flex-item-1 {
+            width: 125px;
+            padding-right: 6.66px;
+            padding-left: 12px;
+        }
+
+        .flex-item-2 {
+            width: 250px;
+            padding-right: 6.66px;
+        }
+
+        .flex-item-3 {
+            width: 180px;
+            padding-right: 6.66px;
+        }
+
+        .flex-item-4 {
+            width: 230px;
+            padding-right: 6.66px;
+        }
+
+        .right {
+            text-align: right;
+        }
+
+
+        /* All Tables ---------------------- */
+
+
+        td {
+            padding-top: 1px;
+        }
+
+        .col-names {
+            vertical-align: bottom;
+        }
+
+            .col-names * {
+                font-size: 10pt;
+                font-weight: bold;
+                margin-bottom: 3px;
+            }
+
+        .row-items * {
+            font-size: 10pt;
+            font-weight: normal;
+        }
+
+
+        /* Tables 1 and 2 ---------------------- */
+
+
+        .table-bottom-border {
+            margin-top: 17px;
+            width: 100%;
+            border-collapse: collapse;
+            border-bottom: 2px solid black;
+            margin-bottom: 5px;
+        }
+
+            .table-bottom-border thead th {
+                font-weight: bold;
+                border-bottom: 2px solid black;
+                margin-bottom: 5px;
+            }
+
+
+        /* Table 1  ----------------------*/
+
+
+        .t1r1 {
+            width: 67px;
+            text-align: center;
+            margin-right: 5px;
+        }
+
+        .t1r2 {
+            width: 67px;
+            text-align: center;
+            margin-right: 5px;
+        }
+
+        .t1r4 {
+            min-width: 250px;
+            text-align: left;
+        }
+
+        .t1r5 {
+            min-width: 62px;
+            margin-left: 5px;
+            text-align: right;
+        }
+
+        .t1r6 {
+            min-width: 92px;
+            margin-left: 5px;
+            text-align: right;
+        }
+
+        .t1r7 {
+            min-width: 92px;
+            margin-left: 5px;
+            text-align: right;
+        }
+
+        .t1rcomment {
+            padding-left: 250px;
+        }
+
+
+        /* Table 2  ----------------------*/
+
+
+        .t2r1 {
+            width: 67px;
+            text-align: center;
+            margin-right: 7px;
+        }
+
+        .t2r2 {
+            width: 65px;
+            text-align: center;
+            margin-right: 7px;
+            padding-right: 4px;
+        }
+
+        .t2r3 {
+            min-width: 195px;
+            text-align: left;
+        }
+
+        .t2r4 {
+            margin-left: 5px;
+            width: 92px;
+            text-align: right;
+        }
+
+        .t2r5 {
+            margin-left: 5px;
+            width: 82px;
+            text-align: right;
+        }
+
+        .t2r6 {
+            margin-left: 5px;
+            width: 82px;
+            text-align: right;
+        }
+
+        .t2r7 {
+            margin-left: 5px;
+            width: 107px;
+            text-align: right;
+        }
+
+        /* Summary Table  ----------------------*/
+
+        .summary-table {
+            margin-left: auto;
+            margin-right: 0px;
+            border-collapse: collapse;
+            margin-top: 17px;
+        }
+
+            .summary-table * {
+                text-align: right;
+                width: 122px;
+            }
+
+        .column1-th {
+            padding-right: 80px;
+            text-align: left;
+        }
+
+        .th-without-border-bottom {
+            border-bottom: 2px solid white;
+            margin-bottom: 4px;
+            text-align: left;
+            padding-right: 80px;
+        }
+
+        .single-border-bottom {
+            border-bottom: 2px solid black;
+            margin-bottom: 4px;
+        }
+
+        .double-border-bottom {
+            border-top: 2px solid black;
+            margin-bottom: 4px;
+            border-bottom: 6px black double;
+        }
+
+        .line-above * {
+            border-top: 1px solid black;
+        }
+
+        .line-below * {
+            border-bottom: 1px solid black;
+        }
+    </style>
+</head>
+<body>
+
+
+
+    <section id="Section3">
+        <div class="input-parameter-border">
+            <div class="flex-row">
+                <div class="flex-item-1">
+                    <p class="right">Run Method:</p>
+                </div>
+                <div class="flex-item-2">
+                    <p>{{RunMeth}}</p>
+                </div>
+                <div class="flex-item-3">
+                    <p class="right">Module Status:</p>
+                </div>
+                <div class="flex-item-4">
+                    <p>{{ModStat}}</p>
+                </div>
+            </div>
+            <div class="flex-row">
+                <div class="flex-item-1">
+                    <p class="right">Interest To:</p>
+                </div>
+                <div class="flex-item-2">
+                    <p>{{RunTo}}</p>
+                </div>
+                <div class="flex-item-3">
+                    <p class="right"></p>
+                </div>
+                <div class="flex-item-4">
+                    <p></p>
+                </div>
+            </div>
+            <div class="flex-row">
+                <div class="flex-item-1">
+                    <p class="right">GATT Method:</p>
+                </div>
+                <div class="flex-item-2">
+                    <p>{{GattMeth}}</p>
+                </div>
+                <div class="flex-item-3">
+                    <p class="right">GATT Date:</p>
+                </div>
+                <div class="flex-item-4">
+                    <p>{{GattDate}}</p>
+                </div>
+            </div>
+            <div class="flex-row">
+                <div class="flex-item-1">
+                    <p class="right">LCU Method:</p>
+                </div>
+                <div class="flex-item-2">
+                    <p>{{HotMeth}}</p>
+                </div>
+                <div class="flex-item-3">
+                    <p class="right">LCU Interest Date:</p>
+                </div>
+                <div class="flex-item-4">
+                    <p>{{HotDate}}</p>
+                </div>
+            </div>
+            <div class="flex-row">
+                <div class="flex-item-1">
+                    <p class="right">Underpay Net Start:</p>
+                </div>
+                <div class="flex-item-2">
+                    <p>{{NetUnder}}</p>
+                </div>
+                <div class="flex-item-3">
+                    <p class="right">Overpay Net Start:</p>
+                </div>
+                <div class="flex-item-4">
+                    <p>{{NetOver}}</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section id="Section4">
+        <div class="input-parameter-border">
+            <div class="flex-row">
+                <div class="flex-item-1">
+                    <p class="right">Run Method:</p>
+                </div>
+                <div class="flex-item-2">
+                    <p>{{RunMeth}}</p>
+                </div>
+                <div class="flex-item-3">
+                    <p class="right">Module Status:</p>
+                </div>
+                <div class="flex-item-4">
+                    <p>{{ModStat}}</p>
+                </div>
+            </div>
+            <div class="flex-row">
+                <div class="flex-item-1">
+                    <p class="right">Interest To:</p>
+                </div>
+                <div class="flex-item-2">
+                    <p>{{RunTo}}</p>
+                </div>
+                <div class="flex-item-3">
+                    <p class="right">GATT Date</p>
+                </div>
+                <div class="flex-item-4">
+                    <p>{{GattDate}}</p>
+                </div>
+            </div>
+            <div class="flex-row">
+                <div class="flex-item-1">
+                    <p class="right">GATT Method:</p>
+                </div>
+                <div class="flex-item-2">
+                    <p>{{GattMeth}}</p>
+                </div>
+                <div class="flex-item-3">
+                    <p class="right">LCU Interest Date:</p>
+                </div>
+                <div class="flex-item-4">
+                    <p>{{HotDate}}</p>
+                </div>
+            </div>
+            <div class="flex-row">
+                <div class="flex-item-1">
+                    <p class="right">LCU Method:</p>
+                </div>
+                <div class="flex-item-2">
+                    <p>{{HotMeth}}</p>
+                </div>
+                <div class="flex-item-3">
+                    <p class="right">2nd LCU Interest Date:</p>
+                </div>
+                <div class="flex-item-4">
+                    <p>{{Hot2Date}}</p>
+                </div>
+            </div>
+            <div class="flex-row">
+                <div class="flex-item-1">
+                    <p class="right">Underpay Net Start:</p>
+                </div>
+                <div class="flex-item-2">
+                    <p>{{NetUnder}}</p>
+                </div>
+                <div class="flex-item-3">
+                    <p class="right">Overpay Net Start:</p>
+                </div>
+                <div class="flex-item-4">
+                    <p>{{NetOver}}</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <table class="table-bottom-border">
+        <thead class="bot-boarder">
+            <tr class="col-names">
+                <th scope="col" class="t1r1">Date Transcript</th>
+                <th scope="col" class="t1r2"> Date<br>Start </th>
+                <th scope="col" class="t1r2">Date Adj/End</th>
+                <th scope="col" class="t1r4">Description</th>
+                <th scope="col" class="t1r5">Susp/Equal</th>
+                <th scope="col" class="t1r6">Principal</th>
+                <th scope="col" class="t1r7">Balance</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr id="Table1"></tr>
+        </tbody>
+    </table>
+
+    <table class="table-bottom-border">
+        <thead class="bot-boarder">
+            <tr class="col-names">
+                <th scope="col" aria-label="Header number one" class="t2r1">Date</th>
+                <th scope="col" class="t2r2"></th>
+                <th scope="col" class="t2r3">Description</th>
+                <th scope="col" class="t2r4">Amount</th>
+                <th scope="col" class="t2r5">Factor</th>
+                <th scope="col" class="t2r6">Interest</th>
+                <th scope="col" class="t2r7">Balance</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr id="Table2"></tr>
+        </tbody>
+    </table>
+
+
+
+    <table class="summary-table">
+        <thead>
+            <tr class="col-names">
+                <th class="th-without-border-bottom " scope="col">Account Summary:</th>
+                <th class="single-border-bottom" scope="row">As Computed</th>
+                <th class="single-border-bottom" scope="row">Per Transcript</th>
+                <th class="single-border-bottom" scope="row">Adjustment</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr class="row-items">
+                <th scope="row" class="column1-th">Deficiency Interest</th>
+                <td>{{RevisedUnder}}</td>
+                <td>{{TransUnder}}</td>
+                <td>{{DefInterest}}</td>
+            </tr>
+            <tr class="row-items">
+                <th scope="row" class="column1-th">Overpayment Interest</th>
+                <td>{{RevisedOver}}</td>
+                <td>{{TransOver}}</td>
+                <td>{{OverInterest}}</td>
+            </tr>
+            <tr class="row-items">
+                <th scope="row" class="column1-th">Principal Balance</th>
+                <td></td>
+                <td></td>
+                <td>{{Principle}}</td>
+            </tr>
+            <tr class="row-items">
+                <th scope="row" class="column1-th"></th>
+                <td class="double-border-bottom">{{RevisedTotal}}</td>
+                <td class="double-border-bottom">{{TransTotal}}</td>
+                <td class="double-border-bottom">{{Refund}}</td>
+            </tr>
+        </tbody>
+    </table>
+
+
+</body>
+</html>
